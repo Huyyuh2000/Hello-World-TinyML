@@ -1,11 +1,12 @@
 // Include dependencies
-#include "sine_model_quantized.cc"
-#include "tensorflow\lite\micro\all_ops_resolver.cc"
-#include "tensorflow/lite/micro/micro_error_reporter.h"
-#include "tensorflow/lite/micro/micro_interpreter.h"
-#include "tensorflow/lite/micro/testing/micro_test.h"
-#include "tensorflow/lite/schema/schema_generated.h"
-#include "tensorflow/lite/version.h"
+#include "tensorflow/lite/micro/examples/hello_world/model.h"
+// #include "sine_model_quantized.h"
+#include "../tflite-micro/tensorflow/lite/micro/all_ops_resolver.cc"
+#include "../tflite-micro/tensorflow/lite/micro/micro_error_reporter.h"
+#include "../tflite-micro/tensorflow/lite/micro/micro_interpreter.h"
+#include "../tflite-micro/tensorflow/lite/micro/testing/micro_test.h"
+#include "../tflite-micro/tensorflow/lite/schema/schema_generated.h"
+#include "../tflite-micro/tensorflow/lite/version.h"
 
 // Setting up the test
 TF_LITE_MICRO_TESTS_BEGIN
